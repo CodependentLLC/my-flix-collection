@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { myMovies } from './data/myLibrary';
 import { fetchMedia } from './api/tmdb';
@@ -11,18 +10,57 @@ type Media = {
   overview: string;
 };
 
+type UnifiedSearchProps = {
+  library: Media[];
+  onResults: (results: Media[]) => void;
+};
+
+function UnifiedSearch({ library, onResults }: UnifiedSearchProps) {
+  const [query, setQuery] = useState('');
+
+  useEffect(() => {
+    if (!query) {
+      onResults(library);
+      return;
+    }
+    const lower = query.toLowerCase();
+    const filtered = library.filter(
+      (item) =>
+        (item.title?.toLowerCase().includes(lower) ||
+         item.name?.toLowerCase().includes(lower))
+    );
+    onResults(filtered);
+  }, [query, library, onResults]);
+
+  return (
+    <input
+      type="text"
+      placeholder="Search movies..."
+      value={query}
+      onChange={(e) => setQuery(e.target.value)}
+      className="w-full px-3 py-2 border rounded focus:outline-none focus:ring focus:border-blue-300"
+    />
+  );
+}
+
 function App() {
   const [library, setLibrary] = useState<Media[]>([]);
+  const [displayed, setDisplayed] = useState<Media[]>([]);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     async function loadLibrary() {
       try {
-        const results = await Promise.all(
-          myMovies.map(item => fetchMedia(item.id, item.type))
+        const uniqueMovies = Array.from(
+          new Map(myMovies.map((item) => [item.id, item])).values()
         );
-        setLibrary(results);
-      } catch (err) {
+        const results = await Promise.all(
+          uniqueMovies.map((item) => fetchMedia(item.id, item.type))
+        );
+        const filteredResults = results.filter(Boolean) as Media[];
+        setLibrary(filteredResults);
+        setDisplayed(filteredResults);
+      } catch {
         setError('Failed to load data.');
       }
     }
@@ -32,20 +70,33 @@ function App() {
   if (error) return <div className="p-4 text-red-500">{error}</div>;
 
   return (
-    <div className="p-4 grid grid-cols-2 md:grid-cols-4 gap-4">
-      {library.map((item) => (
-        <div key={item.id} className="bg-white shadow rounded p-2">
-          <img
-            src={`https://image.tmdb.org/t/p/w500${item.poster_path}`}
-            alt={item.title || item.name}
-            className="rounded"
-          />
-          <h2 className="text-lg font-bold mt-2">
-            {item.title || item.name}
-          </h2>
-          <p className="text-sm">{item.overview.substring(0, 100)}...</p>
+    <div>
+      {/* Header with title left, search right */}
+      <header className="flex justify-between items-center p-4 bg-gray-100 border-b shadow-sm">
+        <h1 className="text-2xl font-bold flex items-center gap-2">
+          <span role="img" aria-label="movie">🎬</span> myFlix
+        </h1>
+        <div className="w-64">
+          <UnifiedSearch library={library} onResults={setDisplayed} />
         </div>
-      ))}
+      </header>
+
+      {/* Results grid */}
+      <div className="p-4 grid grid-cols-2 md:grid-cols-4 gap-4">
+        {displayed.map((item) => (
+          <div key={item.id} className="bg-white shadow rounded p-2">
+            <img
+              src={`https://image.tmdb.org/t/p/w500${item.poster_path}`}
+              alt={item.title || item.name}
+              className="rounded"
+            />
+            <h2 className="text-lg font-bold mt-2">
+              {item.title || item.name}
+            </h2>
+            <p className="text-sm">{item.overview?.substring(0, 100)}...</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
