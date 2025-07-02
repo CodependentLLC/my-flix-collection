@@ -72,9 +72,21 @@ function App() {
   return (
     <div>
       {/* Header with title left, search right */}
-      <header className="flex justify-between items-center p-4 bg-gray-100 border-b shadow-sm">
-        <h1 className="text-2xl font-bold flex items-center gap-2">
-          <span role="img" aria-label="movie">🎬</span> myFlix
+      <header className="flex justify-between items-center p-4 bg-black border-b shadow-sm" >
+        <h1
+            className="text-4xl font-bold uppercase flex items-center gap-2"
+            style={{
+                fontFamily: "'Anton', sans-serif",
+                color: "#E50914",
+                fontWeight: 'normal',
+                letterSpacing: '.25em',
+                textShadow: '1px 1px 2px rgba(0,0,0,0.3)',
+            }}
+            >
+            <span role="img" aria-label="movie" style={{ fontSize: '1.8rem', lineHeight: 1 }}>
+                🎬
+            </span>
+            myFlix
         </h1>
         <div className="w-64">
           <UnifiedSearch library={library} onResults={setDisplayed} />
