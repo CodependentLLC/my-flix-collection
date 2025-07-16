@@ -21,6 +21,7 @@ export const myMovies: { id: number; type: MediaType }[] = [
   { id: 38757, type: 'movie' },     // Tangled (2010) :contentReference[oaicite:5]{index=5}
   { id: 49051, type: 'movie' },     // The Hobbit: An Unexpected Journey (2012) :contentReference[oaicite:6]{index=6}
   { id: 11886, type: 'movie' },     // Robin Hood (1973 animated) :contentReference[oaicite:7]{index=7}
+  { id: 11224, type: 'movie' },    // Cinderella (1950) :contentReference[oaicite:9]{index=9}
 //   { id: 150689, type: 'movie' },    // Cinderella (2015) :contentReference[oaicite:9]{index=9}
   { id: 316029, type: 'movie' },    // The Greatest Showman (2017) :contentReference[oaicite:10]{index=10}
   { id: 2501, type: 'movie' },       // The Bourne Identity (2002) :contentReference[oaicite:11]{index=11}
@@ -53,31 +54,31 @@ export const myMovies: { id: number; type: MediaType }[] = [
   {id: 355547, type: 'movie' }, //The Star
   {id: 13965, type: 'movie' }, //Return to Snowy River
   {id: 408, type: 'movie' }, //Snow White and the Seven Dwarfs
-  {id: 11371, type: 'movie' }, //Walk the Line
+  {id: 69, type: 'movie' }, //Walk the Line
   {id: 22794, type: 'movie' }, //Cloudy with a chance of meatballs
   {id: 557, type: 'movie' }, //Spider-Man
-  {id: 7518, type: 'movie' }, //Open Season
-  {id: 13053, type: 'movie' }, //Lion King 1 1/2
-  {id: 976573, type: 'movie' }, //Super Mario Bros Movie
-  {id: 100, type: 'movie' }, //National Treasure
-  {id: 663, type: 'movie' }, //National Treasure 2
+  {id: 7518, type: 'movie' }, //Over the Hedge
+  {id: 11430, type: 'movie' }, //Lion King 1 1/2
+  {id: 502356, type: 'movie' }, //Super Mario Bros Movie
+  {id: 2059, type: 'movie' }, //National Treasure
+  {id: 6637, type: 'movie' }, //National Treasure 2
   {id: 11970, type: 'movie' }, //Hercules
   {id: 615, type: 'movie' }, //The Passion of the Christ
   {id: 22, type: 'movie' }, //Pirates of the Caribbean
-  {id: 9937, type: 'movie' }, //Happy Feet
+  {id: 9836, type: 'movie' }, //Happy Feet
   {id: 597, type: 'movie' }, //Titanic
-  {id: 449443, type: 'movie' }, //The Song
-  {id: 792307, type: 'movie' }, //Migration
-  {id: 87429, type: 'tv' }, //Downton Abbey
+  {id: 271164, type: 'movie' }, //The Song
+  {id: 940551, type: 'movie' }, //Migration
+  {id: 33907, type: 'tv' }, //Downton Abbey
   {id: 2062, type: 'movie' }, //Ratatouille
-  {id: 14254, type: 'tv' }, //Mickey's Christmas Carol
+  {id: 14813, type: 'movie' }, //Mickey's Christmas Carol
   {id: 27205, type: 'movie' }, //Inception
-  {id: 11336, type: 'movie' }, //Better off Dead
-//   {id: 21195, type: 'tv' }, //The Berenstein Bears
-  {id: 129, type: 'movie' }, //A Bugs Life
-  {id: 11322, type: 'movie' }, //Christmas with the Kranks
+  {id: 13667, type: 'movie' }, //Better off Dead
+  {id: 10318, type: 'tv' }, //The Berenstein Bears
+  {id: 9487, type: 'movie' }, //A Bugs Life
+  {id: 13673, type: 'movie' }, //Christmas with the Kranks
   {id: 1726, type: 'movie' }, //Ironman
-  {id: 11060, type: 'movie' }, //Old Yelloer
+  {id: 22660, type: 'movie' }, //Old Yelloer
   {id: 8587, type: 'movie' }, //Lion King
   {id: 399566, type: 'movie' }, //Godzilla vs. Kong
   {id: 808, type: 'movie' }, //Shrek
@@ -87,37 +88,37 @@ export const myMovies: { id: number; type: MediaType }[] = [
   {id: 331, type: 'movie' }, //Jurassic Park III
   {id: 2454, type: 'movie' }, //Narnia Prince Caspian
   {id: 12230, type: 'movie' }, //101 Dalmations
-  {id: 683491, type: 'movie' }, //Letters to God
+  {id: 35691, type: 'movie' }, //Letters to God
   {id: 87, type: 'movie' }, //Indiana Jones Temple of Doom
   {id: 338169, type: 'movie' }, //Strawberry Shortcake Berry Best Show
   {id: 810, type: 'movie' }, //Shrek 3D
   {id: 288767, type: 'movie' }, //Pixar Shortfilms
   {id: 6038, type: 'movie' }, //Shanghai Knights
-  {id: 11252, type: 'movie' }, //Over the hedge
-  {id: 525, type: 'movie' }, //The Polar Express
+  {id: 7518, type: 'movie' }, //Over the hedge
+  {id: 5255, type: 'movie' }, //The Polar Express
   {id: 4523, type: 'movie' }, //Enchanted
-  {id: 13574, type: 'movie' }, //Fireproof
-  {id: 556984, type: 'movie' }, //I still believe
-  {id: 9836, type: 'movie' }, //The phantom of the opera
+  {id: 14438, type: 'movie' }, //Fireproof
+  {id: 585244, type: 'movie' }, //I still believe
+  {id: 9833, type: 'movie' }, //The phantom of the opera
   {id: 10195, type: 'movie' }, //Thor
-  {id: 51162, type: 'tv' }, //Winnie the Pooh
+  {id: 81310, type: 'movie' }, //Winnie the Pooh
   {id: 953, type: 'movie' }, //Madagascar
   {id: 770, type: 'movie' }, //Gone with the Wind
   {id: 137094, type: 'movie' }, //Jack Ryan Shadow Recruit
-  {id: 19751, type: 'tv' }, //Mickey's One upon a christmas
-  {id: 11977, type: 'movie' }, //Fiddler on the roof
-  {id: 24929, type: 'movie' }, //Princess Bride
-  {id: 10773, type: 'movie' }, //The count of monte christo
+  {id: 15400, type: 'movie' }, //Mickey's One upon a christmas
+  {id: 14811, type: 'movie' }, //Fiddler on the roof
+  {id: 2493, type: 'movie' }, //Princess Bride
+  {id: 11362, type: 'movie' }, //The count of monte christo
   {id: 46195, type: 'movie' }, //Rio
   {id: 564, type: 'movie' }, //The Mummy
-//   {id: 161123, type: 'tv' }, //The Book of Esther
+  {id: 199153, type: 'movie' }, //The Book of Esther
   {id: 82695, type: 'movie' }, //Les Miserables
   {id: 70160, type: 'movie' }, //The Hunger Games
-  {id: 579583, type: 'movie' }, //Overcomer
-  {id: 46786, type: 'movie' }, //The Bible
+  {id: 527776, type: 'movie' }, //Overcomer
+  {id: 43899, type: 'tv' }, //The Bible
   {id: 20352, type: 'movie' }, //Despicable Me
-  {id: 12092, type: 'movie' }, //The Great Mouse Detective
-  {id: 8844, type: 'movie' }, //Finding Neverland
+  {id: 9994, type: 'movie' }, //The Great Mouse Detective
+  {id: 866, type: 'movie' }, //Finding Neverland
   {id: 25602, type: 'movie' }, //Ninja
   {id: 15797, type: 'movie' }, //Only the Strong
   {id: 1448210, type: 'movie' }, //20 Tiger Tales
@@ -129,25 +130,24 @@ export const myMovies: { id: number; type: MediaType }[] = [
   {id: 6947, type: 'movie' }, //The Village
   {id: 24021, type: 'movie' }, //Twilight Eclipse
   {id: 390641, type: 'movie' }, //Vaxxed
-  {id: 9669, type: 'movie' }, //Ladder 49
+  {id: 11128, type: 'movie' }, //Ladder 49
   {id: 330, type: 'movie' }, //the Lost world
   {id: 6023, type: 'movie' }, //p.s. i love you
-  {id: 567189, type: 'movie' }, //universal soldier the return
-  {id: 26690, type: 'tv' }, //Garfield as Himself
+  {id: 10366, type: 'movie' }, //universal soldier the return
+  {id: 23849, type: 'movie' }, //Garfield as Himself
   {id: 11036, type: 'movie' }, //The Notebook
   {id: 9325, type: 'movie' }, //The JungleBook
-  {id: 17979, type: 'movie' }, //A Christmas Carol
-  {id: 9774, type: 'movie' }, //Tin Cup
+//   {id: 17979, type: 'movie' }, //A Christmas Carol
+  {id: 10478, type: 'movie' }, //Tin Cup
   {id: 771, type: 'movie' }, //Home Alone
   {id: 24428, type: 'movie' }, //The Avengers
   {id: 27578, type: 'movie' }, //The Expendables
   {id: 76163, type: 'movie' }, //The Expendables 2
   {id: 138103, type: 'movie' }, //The Expendables 3
-//   {id: 73938, type: 'tv' }, //Tim Hawkins Insanitized
-  {id: 11626, type: 'movie' }, //Get Smart
-  {id: 50620, type: 'movie' }, //The Twilight Saga Breaking Dawn
-  {id: 1824, type: 'movie' }, //Twilight New Moon
-  {id: 157350, type: 'movie' }, //For Richer or Poorer
+  {id: 73938, type: 'movie' }, //Tim Hawkins Insanitized
+  {id: 11665, type: 'movie' }, //Get Smart
+  {id: 18239, type: 'movie' }, //Twilight New Moon
+  {id: 10371, type: 'movie' }, //For Richer or Poorer
   {id: 1453158, type: 'movie' }, //Get Away Jordan
   {id: 50619, type: 'movie' }, //Twilight Breaking Dawn Part 1
   {id: 50620, type: 'movie' }, //Twilight Breaking Dawn Part 2
@@ -162,65 +162,66 @@ export const myMovies: { id: number; type: MediaType }[] = [
   {id: 34544, type: 'movie' }, //The A-Team
   {id: 546554, type: 'movie' }, //Knives Out
   {id: 678512, type: 'movie' }, //Sound of Freedom
-  {id: 20642, type: 'movie' }, //Left Behind (2000)
+  {id: 37302, type: 'movie' }, //Left Behind (2000)
   {id: 157350, type: 'movie' }, //Divergent
   {id: 262500, type: 'movie' }, //Insurgent
   {id: 9312, type: 'movie' }, //The Man in the Iron Mask
   {id: 13938, type: 'movie' }, //The Last Dragon
-  {id: 9951, type: 'movie' }, //Wild Hogs
-  {id: 9881, type: 'movie' }, //The Guardian
-  {id: 9532, type: 'movie' }, //Robin Hood: Men in Tights
+  {id: 11199, type: 'movie' }, //Wild Hogs
+  {id: 4643, type: 'movie' }, //The Guardian
+  {id: 8005, type: 'movie' }, //Robin Hood: Men in Tights
   {id: 921, type: 'movie' }, //Cinderella Man
   {id: 2621, type: 'movie' }, //Return to Me
   {id: 45862, type: 'movie' }, //Hangman's Curse
   {id: 197, type: 'movie' }, //Braveheart
   {id: 4709, type: 'tv' }, //Man vs. Wild
-  {id: 19649, type: 'movie' }, //Jesus of Nazareth
-  {id: 747, type: 'movie' }, //Shooter
+  {id: 19649, type: 'tv' }, //Jesus of Nazareth
+  {id: 7485, type: 'movie' }, //Shooter
   {id: 56292, type: 'movie' }, //Mission: Impossible â€“ Ghost Protocol
-  {id: 67073, type: 'tv' }, //Paw Patrol
+  {id: 57532, type: 'tv' }, //Paw Patrol
   {id: 33347, type: 'tv' }, //Angelica Ballerina
   {id: 411, type: 'movie' }, //Chronicles of Narnia
-  {id: 429197, type: 'movie' }, //12 Strong
-  {id: 84175, type: 'movie' }, //Here Comes the Boom
+  {id: 429351, type: 'movie' }, //12 Strong
+  {id: 87826, type: 'movie' }, //Here Comes the Boom
   {id: 10229, type: 'movie' }, //A Walk to Remember
   {id: 795, type: 'movie' }, //City of Angels
-  {id: 9913, type: 'movie' }, //How to Lose a Guy in 10 Days
+  {id: 9919, type: 'movie' }, //How to Lose a Guy in 10 Days
   {id: 2024, type: 'movie' }, //Hitch
   {id: 8681, type: 'movie' }, //Taken
   {id: 82675, type: 'movie' }, //Taken 2
-  {id: 146198, type: 'movie' }, //Red 2
-  {id: 10670, type: 'movie' }, //Navy Seals
+  {id: 146216, type: 'movie' }, //Red 2
+  {id: 214177, type: 'tv' }, //Navy Seals
   {id: 10545, type: 'movie' }, //The Hunchback of Notre Dame
-  {id: 75174, type: 'movie' }, //Act of Valor
+  {id: 75674, type: 'movie' }, //Act of Valor
   {id: 567189, type: 'movie' }, //Without Remorse
-  {id: 5919, type: 'movie' }, //The Family Man
-  {id: 203651, type: 'movie' }, //Grace Unplugged
-  {id: 322794, type: 'movie' }, //Patterns of Evidence: Exodus
+  {id: 5994, type: 'movie' }, //The Family Man
+  {id: 206284, type: 'movie' }, //Grace Unplugged
+  {id: 284513, type: 'tv' }, //Patterns of Evidence: Exodus
   {id: 10948, type: 'movie' }, //The Fox and the Hound
-  {id: 32114, type: 'movie' }, //Frosty the Snowman
-  {id: 8452, type: 'movie' }, //Tears of the Sun
+  {id: 13675, type: 'movie' }, //Frosty the Snowman
+  {id: 9567, type: 'movie' }, //Tears of the Sun
   {id: 2080, type: 'movie' }, //X-Men Origins: Wolverine
   {id: 920, type: 'movie' }, //Cars
-  {id: 13015, type: 'movie' }, //Eagle Eye
+  {id: 13027, type: 'movie' }, //Eagle Eye
   {id: 49026, type: 'movie' }, //The Dark Knight Rises
-  {id: 128, type: 'movie' }, //The Patriot
+  {id: 2024, type: 'movie' }, //The Patriot
   {id: 59440, type: 'movie' }, //Warrior
-  {id: 227306, type: 'movie' }, //When the Game Stands Tall
+  {id: 232679, type: 'movie' }, //When the Game Stands Tall
   {id: 760532, type: 'movie' }, //small group
   {id: 8966, type: 'movie' }, //Twilight
   {id: 6479, type: 'movie' }, //I Am Legend
-  {id: 13702, type: 'movie' }, //VeggieTales: Jonah
-  {id: 14475, type: 'movie' }, //VeggieTales: The Pirates Who Don't Do Anything
+  {id: 15173, type: 'movie' }, //VeggieTales: Jonah
+  {id: 15511, type: 'movie' }, //VeggieTales: The Pirates Who Don't Do Anything
   {id: 788, type: 'movie' }, //Mrs. Doubtfire
   {id: 558, type: 'movie' }, //Spider-Man 2
   {id: 155, type: 'movie' }, //The Dark Knight
-  {id: 11822, type: 'movie' }, //Bloodsport
+  {id: 11690, type: 'movie' }, //Bloodsport
   {id: 503811, type: 'movie' }, //Like Arrows
   {id: 272, type: 'movie' }, //Batman Begins
-  {id: 273578, type: 'tv' }, //VeggieTales: The Balld of Little Joe
+  {id: 273578, type: 'movie' }, //VeggieTales: The Balld of Little Joe
   {id: 14160, type: 'movie' }, //Up
   {id: 12, type: 'movie' }, //Finding Nemo
-  {id: 50406, type: 'tv' }, //Bugs Bunny Easter Funnies
+  {id: 50406, type: 'movie' }, //Bugs Bunny Easter Funnies
+  {id: 1885, type: 'movie' }, //Karate Kid
 ];
   
