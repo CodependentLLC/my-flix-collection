@@ -21,6 +21,7 @@ export const myMovies: { id: number; type: MediaType }[] = [
   { id: 38757, type: 'movie' },     // Tangled (2010) :contentReference[oaicite:5]{index=5}
   { id: 49051, type: 'movie' },     // The Hobbit: An Unexpected Journey (2012) :contentReference[oaicite:6]{index=6}
   { id: 11886, type: 'movie' },     // Robin Hood (1973 animated) :contentReference[oaicite:7]{index=7}
+  { id: 11224, type: 'movie' },    // Cinderella (1950) :contentReference[oaicite:9]{index=9}
 //   { id: 150689, type: 'movie' },    // Cinderella (2015) :contentReference[oaicite:9]{index=9}
   { id: 316029, type: 'movie' },    // The Greatest Showman (2017) :contentReference[oaicite:10]{index=10}
   { id: 2501, type: 'movie' },       // The Bourne Identity (2002) :contentReference[oaicite:11]{index=11}
@@ -70,10 +71,10 @@ export const myMovies: { id: number; type: MediaType }[] = [
   {id: 940551, type: 'movie' }, //Migration
   {id: 33907, type: 'tv' }, //Downton Abbey
   {id: 2062, type: 'movie' }, //Ratatouille
-  {id: 14813, type: 'tv' }, //Mickey's Christmas Carol
+  {id: 14813, type: 'movie' }, //Mickey's Christmas Carol
   {id: 27205, type: 'movie' }, //Inception
   {id: 13667, type: 'movie' }, //Better off Dead
-//   {id: 21195, type: 'tv' }, //The Berenstein Bears
+  {id: 10318, type: 'tv' }, //The Berenstein Bears
   {id: 9487, type: 'movie' }, //A Bugs Life
   {id: 13673, type: 'movie' }, //Christmas with the Kranks
   {id: 1726, type: 'movie' }, //Ironman
@@ -110,7 +111,7 @@ export const myMovies: { id: number; type: MediaType }[] = [
   {id: 11362, type: 'movie' }, //The count of monte christo
   {id: 46195, type: 'movie' }, //Rio
   {id: 564, type: 'movie' }, //The Mummy
-//   {id: 161123, type: 'tv' }, //The Book of Esther
+  {id: 199153, type: 'movie' }, //The Book of Esther
   {id: 82695, type: 'movie' }, //Les Miserables
   {id: 70160, type: 'movie' }, //The Hunger Games
   {id: 527776, type: 'movie' }, //Overcomer
