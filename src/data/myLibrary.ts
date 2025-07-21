@@ -7,7 +7,7 @@ export const myMovies: { id: number; type: MediaType }[] = [
 { id: 12230, type: 'movie' }, //101 Dalmations
 { id: 429351, type: 'movie' }, //12 Strong
 { id: 1448210, type: 'movie' }, //20 Tiger Tales
-//   {id: 17979, type: 'movie' }, //A Christmas Carol
+//   { id: 17979, type: 'movie' }, //A Christmas Carol
 { id: 10229, type: 'movie' }, //A Walk to Remember
 { id: 9487, type: 'movie' }, //A Bugs Life
 { id: 447332, type: 'movie' }, //A Quiet Place (2018)
@@ -17,6 +17,7 @@ export const myMovies: { id: number; type: MediaType }[] = [
 { id: 420817, type: 'movie' }, //Aladdin (2019 live‑action)
 { id: 33347, type: 'tv' }, //Angelica Ballerina
 { id: 95, type: 'movie' }, //Armageddon
+{ id: 24428, type: 'movie' }, //The Avengers
 { id: 299534, type: 'movie' }, //Avengers: Endgame (2019)
 
 // B
@@ -34,7 +35,7 @@ export const myMovies: { id: number; type: MediaType }[] = [
 // C
 
 { id: 13187, type: 'movie' }, //Charlie Brown Christmas
-{id: 13673, type: 'movie' }, //Christmas with the Kranks
+{ id: 13673, type: 'movie' }, //Christmas with the Kranks
 { id: 11224, type: 'movie' }, //Cinderella
 { id: 921, type: 'movie' }, //Cinderella Man
 { id: 9331, type: 'movie' }, //Clear and Present Danger
@@ -68,7 +69,7 @@ export const myMovies: { id: number; type: MediaType }[] = [
 { id: 206284, type: 'movie' }, //Grace Unplugged
 
 // H
-  { id: 45862, type: 'movie' }, //Hangman's Curse
+{ id: 45862, type: 'movie' }, //Hangman's Curse
 { id: 9836, type: 'movie' }, //Happy Feet
 { id: 87826, type: 'movie' }, //Here Comes the Boom
 { id: 11970, type: 'movie' }, //Hercules
@@ -107,10 +108,12 @@ export const myMovies: { id: number; type: MediaType }[] = [
 { id: 11128, type: 'movie' }, //Ladder 49
 { id: 10340, type: 'movie' }, //Lady and the Tramp
 { id: 969492, type: 'movie' }, //Land of Bad
+{ id: 37302, type: 'movie' }, // Left Behind (2000)
 { id: 35691, type: 'movie' }, //Letters to God
 { id: 503811, type: 'movie' }, //Like Arrows
 { id: 8587, type: 'movie' }, //Lion King
 { id: 11430, type: 'movie' }, //Lion King 1 1/2
+{ id: 1781, type: 'tv' }, // Little House on the Prairie (1974 TV series)
 { id: 339419, type: 'movie' }, //Loving
 
 // M
@@ -148,6 +151,7 @@ export const myMovies: { id: number; type: MediaType }[] = [
 { id: 288767, type: 'movie' }, //Pixar Shortfilms
 { id: 22, type: 'movie' }, //Pirates of the Caribbean
 { id: 2493, type: 'movie' }, //Princess Bride
+{ id: 57532, type: 'tv' }, // Paw Patrol
 
 // Q
 
@@ -172,23 +176,56 @@ export const myMovies: { id: number; type: MediaType }[] = [
 { id: 808, type: 'movie' }, //Shrek
 { id: 809, type: 'movie' }, //Shrek 2
 { id: 810, type: 'movie' }, //Shrek 3D
+{ id: 678512, type: 'movie' }, // Sound of Freedom
 { id: 338169, type: 'movie' }, //Strawberry Shortcake Berry Best Show
 { id: 502356, type: 'movie' }, //Super Mario Bros Movie
 { id: 11529, type: 'movie' }, //Sweet Home Alabama
 
 // T
 { id: 258489, type: 'movie' }, //Tarzan
-{ id: 9567, type: 'movie' }, //Tears of the Sun
+{ id: 9567, type: 'movie' },  //Tears of the Sun
 { id: 38757, type: 'movie' }, //Tangled (2010)
-{ id: 9313, type: 'movie' }, //The Man in the Iron Mask
+{ id: 43899, type: 'tv' }, // The Bible
+{ id: 199153, type: 'movie' }, //The Book of Esther
+{ id: 2501, type: 'movie' },  // The Bourne Identity (2002) :contentReference[oaicite:11]{index=11}
+{ id: 2502, type: 'movie' },  // The Bourne Supremacy (2004) — *needs lookup*
+{ id: 2503, type: 'movie' },  // The Bourne Ultimatum (2007) — *needs lookup*
+{ id: 49040, type: 'movie' }, // The Bourne Legacy (2012) — *needs lookup*
+{ id: 11362, type: 'movie' }, //The count of monte christo
+{ id: 155, type: 'movie' }, //The Dark Knight
+{ id: 49026, type: 'movie' }, //The Dark Knight Rises
+{ id: 27578, type: 'movie' }, //The Expendables
+{ id: 76163, type: 'movie' }, //The Expendables 2
+{ id: 138103, type: 'movie' }, //The Expendables 3
+{ id: 5994, type: 'movie' }, //The Family Man
+{ id: 10948, type: 'movie' }, //The Fox and the Hound
+{ id: 9340, type: 'movie' }, //The Goonies
+{ id: 9994, type: 'movie' }, //The Great Mouse Detective
+{ id: 4643, type: 'movie' }, //The Guardian
+{ id: 316029, type: 'movie' },    // The Greatest Showman 
+{ id: 10144, type: 'movie' }, // The Little Mermaid (2023 live-action)
+{ id: 49051, type: 'movie' }, // The Hobbit: An Unexpected Journey (2012)
+{ id: 121, type: 'movie' }, // The Lord of the Rings: The Two Towers
+{ id: 122, type: 'movie' }, // The Lord of the Rings: The Return of the King
+{ id: 615, type: 'movie' }, // The Passion of the Christ
+{ id: 5255, type: 'movie' }, // The Polar Express
+{ id: 9833, type: 'movie' }, // The Phantom of the Opera
+{ id: 9313, type: 'movie' },  //The Man in the Iron Mask
+{ id: 593495, type: 'movie' }, //The Reliant
+{ id: 11395, type: 'movie' },  //The Santa Clause
+{ id: 271164, type: 'movie' }, //The Song
+{ id: 355547, type: 'movie' }, //The Star
+{ id: 2018, type: 'movie' },   //The Wedding Planner
+{ id: 34544, type: 'movie' },  //The A-Team
 { id: 73938, type: 'movie' }, //Tim Hawkins Insanitized
 { id: 10478, type: 'movie' }, //Tin Cup
 { id: 10195, type: 'movie' }, //Thor
+{ id: 361743, type: 'movie' }, // Top Gun: Maverick (2022)
 { id: 24021, type: 'movie' }, //Twilight Eclipse
 { id: 50619, type: 'movie' }, //Twilight Breaking Dawn Part 1
 { id: 50620, type: 'movie' }, //Twilight Breaking Dawn Part 2
 { id: 18239, type: 'movie' }, //Twilight New Moon
-{ id: 8966, type: 'movie' }, //Twilight
+{ id: 8966, type: 'movie' },  //Twilight
 
 // U
 
