@@ -223,5 +223,7 @@ export const myMovies: { id: number; type: MediaType }[] = [
   {id: 12, type: 'movie' }, //Finding Nemo
   {id: 50406, type: 'movie' }, //Bugs Bunny Easter Funnies
   {id: 1885, type: 'movie' }, //Karate Kid
+  {id: 1087192, type: 'movie' }, //How to Train Your Dragon
+  {id: 1011477, type: 'movie' }, // Karate Kid Legends
 ];
   
