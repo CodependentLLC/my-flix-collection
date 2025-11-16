@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.42d832bd.css",
-    "main.js": "/static/js/main.f193bdff.js",
+    "main.css": "/static/css/main.77a291f8.css",
+    "main.js": "/static/js/main.a6798dd6.js",
     "static/media/anton-latin-ext-400-normal.woff2": "/static/media/anton-latin-ext-400-normal.928515239c28b024cf91.woff2",
     "static/media/anton-latin-ext-400-normal.woff": "/static/media/anton-latin-ext-400-normal.0858eafc8d92b3f92bf0.woff",
     "static/media/anton-latin-400-normal.woff2": "/static/media/anton-latin-400-normal.7e40d31dc6b8dc0fd152.woff2",
@@ -9,11 +9,11 @@
     "static/media/anton-vietnamese-400-normal.woff2": "/static/media/anton-vietnamese-400-normal.3f6ac33655a4883230cf.woff2",
     "static/media/anton-vietnamese-400-normal.woff": "/static/media/anton-vietnamese-400-normal.f2305933f9c3232917b6.woff",
     "index.html": "/index.html",
-    "main.42d832bd.css.map": "/static/css/main.42d832bd.css.map",
-    "main.f193bdff.js.map": "/static/js/main.f193bdff.js.map"
+    "main.77a291f8.css.map": "/static/css/main.77a291f8.css.map",
+    "main.a6798dd6.js.map": "/static/js/main.a6798dd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.42d832bd.css",
-    "static/js/main.f193bdff.js"
+    "static/css/main.77a291f8.css",
+    "static/js/main.a6798dd6.js"
   ]
 }
